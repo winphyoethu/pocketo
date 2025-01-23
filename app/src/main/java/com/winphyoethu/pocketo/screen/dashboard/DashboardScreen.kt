@@ -36,6 +36,7 @@ import com.winphyoethu.pocketo.designsystem.ui.theme.PocketoTheme
 import com.winphyoethu.pocketo.designsystem.ui.theme.largeDp
 import com.winphyoethu.pocketo.designsystem.ui.theme.mediumDp
 import com.winphyoethu.pocketo.model.expense.Expense
+import com.winphyoethu.pocketo.model.expense.mockExpense
 import com.winphyoethu.pocketo.model.monthlyusage.MonthlyExpense
 import com.winphyoethu.pocketo.model.monthlyusage.mockMonthlyExpense
 
@@ -135,6 +136,11 @@ internal fun Dashboard(
 @Composable
 fun DashboardPreview() {
     PocketoTheme(dynamicColor = false) {
-        Dashboard(onCreateExpenseClick = {})
+        Dashboard(
+            onCreateExpenseClick = {},
+            expenseListState = listOf(mockExpense),
+            monthlyBalanceState = mockMonthlyExpense,
+            accountName = "Win"
+        )
     }
 }

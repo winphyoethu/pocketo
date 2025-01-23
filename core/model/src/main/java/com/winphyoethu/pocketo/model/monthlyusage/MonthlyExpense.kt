@@ -14,5 +14,7 @@ val mockMonthlyExpense = MonthlyExpense(
     id = 1,
     accountId = 0,
     balance = 1000.0,
-    remainingBalance = 1000.0
+    remainingBalance = 1000.0,
+    currencyName = "AUD",
+    currencySymbol = "$"
 )

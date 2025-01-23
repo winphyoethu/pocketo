@@ -4,7 +4,6 @@
     <style name="Theme.Pocketo" parent="android:Theme.Material.Light.NoActionBar" />
 
     <style name="Theme.Splash" parent="Theme.SplashScreen">
-        <item name="windowSplashScreenAnimatedIcon">@drawable/giroud</item>
         <item name="postSplashScreenTheme">@style/Theme.Pocketo</item>
 
         <item name="android:windowLightStatusBar" tools:targetApi="23">true</item>
