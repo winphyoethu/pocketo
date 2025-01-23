@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Pocketo</string>
+
+    <!-- Set Up Screen -->
+    <string name="set_up_welcome">Welcome to Pocketo!</string>
+    <string name="set_up_full_name">Full Name</string>
+    <string name="set_up_profession">Profession(Optional)</string>
+    <string name="set_up_income">Income</string>
+    <string name="set_up_currency">Currency</string>
+    <string name="set_up_next_step">Next</string>
+    <string name="set_up_prev_step">Back</string>
+    <string name="set_up_finish">Finish</string>
+    <string name="set_up_error">Error during set up</string>
+    <string name="set_up_animation">Set up animation</string>
+    <string name="set_up_progress_animation">Set up progress animation</string>
+    <string name="set_up_next_step_animation">Next step animation</string>
+    <string name="set_up_backdrop_content_description">Backdrop</string>
+    <string name="set_up_dropdown_currency_content_description">Currency Dropdown</string>
+
+    <!-- Dashboard Screen -->
+
+    <string name="create_expense_success">Expense created</string>
+    <string name="create_expense_error">Fail to create expense</string>
+</resources>
